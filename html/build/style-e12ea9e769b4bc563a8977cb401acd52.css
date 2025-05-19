@@ -1,0 +1,35 @@
+.dark\:bg-stone-900:is(.dark *) {
+    background-color: #1e2129;
+}
+
+.dark\:bg-stone-900\/80:is(.dark *) {
+    /*background-color: #1f2630;*/
+    background-color: #009385;
+}
+
+.dark .hljs {
+    background: #272b35 !important;
+}
+
+.dark\:border-l-blue-400:is(.dark *) {
+    border-left-color: #005f56;
+}
+
+.dark\:bg-gray-700:is(.dark *) {
+    background-color: #005f56;
+}
+
+.dark\:border-gray-600:is(.dark *) {
+    border-color: #005f56;
+}
+
+
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 40%; */
+}
